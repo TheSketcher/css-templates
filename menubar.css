@@ -1,0 +1,33 @@
+/*
+MENUBAR-TEMPLATE
+
+Basic stylesheet for a centered menu-bar created from an unordered list.
+
+HTML structure:
+<ul class="menubar">
+  <li class="menuentry"><a class="menu-link">menu point name</a></li>
+</ul>
+
+Template by Johannes Wittwer */
+
+
+/*unordered list<ul>*/
+.menubar{
+  list-style:none;
+  text-align: center;
+  margin: *;
+  padding: *;
+}/*list entry <li>*/
+.menuentry{
+  display:inline;
+  width: 60px;
+  padding: *;
+}/*link<a>*/
+.menu-link{
+  background-color: *;
+  color: *;
+}/* Change colors when menu link is hovered*/
+.menu-link:hover{
+  background-color: *;
+  color: *;
+}
